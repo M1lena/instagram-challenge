@@ -1,14 +1,11 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en" class="">
   <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
-    
-    
+
+
     <title>instagram-challenge/README.md at master · M1lena/instagram-challenge</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -33,7 +30,7 @@
       <meta name="google-analytics" content="UA-3769691-2">
 
     <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="56B2274C:0C07:DEE9136:554F6506" name="octolytics-dimension-request_id" /><meta content="10586474" name="octolytics-actor-id" /><meta content="M1lena" name="octolytics-actor-login" /><meta content="9b833b4642fc3c2ce773ecea07bb44d2c5e4278922eacfdcdab46c826d819139" name="octolytics-actor-hash" />
-    
+
     <meta content="Rails, view, blob#show" name="analytics-event" />
     <meta class="js-ga-set" name="dimension1" content="Logged In">
     <meta class="js-ga-set" name="dimension2" content="Header v3">
@@ -41,7 +38,7 @@
     <meta name="hostname" content="github.com">
     <meta name="user-login" content="M1lena">
 
-    
+
     <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
 
 
@@ -50,13 +47,13 @@
 
     <link href="https://assets-cdn.github.com/assets/github-c486157afcc5f58155a921bc675afb08733fbaa8dcf39ac2104d381dd9c82ac2.css" media="all" rel="stylesheet" />
     <link href="https://assets-cdn.github.com/assets/github2-da2e842cc3f0aaf33b727d0ef034243c12ab008fd09b24868b97719683b40ee7.css" media="all" rel="stylesheet" />
-    
-    
+
+
 
 
     <meta http-equiv="x-pjax-version" content="4426702614c8182f33d1780ad1169662">
 
-      
+
   <meta name="description" content="instagram-challenge - Rebuild Instagram">
   <meta name="go-import" content="github.com/M1lena/instagram-challenge git https://github.com/M1lena/instagram-challenge.git">
 
@@ -69,9 +66,9 @@
   <body class="logged_in  env-production macintosh vis-public fork page-blob">
     <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
     <div class="wrapper">
-      
-      
-      
+
+
+
 
 
         <div class="header header-logged-in true" role="banner">
@@ -112,7 +109,7 @@
           </li>
       </ul>
 
-      
+
 <ul class="header-nav user-nav right" id="user-links">
   <li class="header-nav-item dropdown js-menu-container">
     <a class="header-nav-link name" href="/M1lena" data-ga-click="Header, go to profile, text:username">
@@ -131,7 +128,7 @@
 
     <div class="dropdown-menu-content js-menu-content">
       <ul class="dropdown-menu">
-        
+
 <li>
   <a href="/new" data-ga-click="Header, create new repository, icon:repo"><span class="octicon octicon-repo"></span> New repository</a>
 </li>
@@ -180,23 +177,23 @@
 
 
 
-    
+
   </div>
 </div>
 
-        
 
-        
+
+
 
 
       <div id="start-of-content" class="accessibility-aid"></div>
           <div class="site" itemscope itemtype="http://schema.org/WebPage">
     <div id="js-flash-container">
-      
+
     </div>
     <div class="pagehead repohead instapaper_ignore readability-menu">
       <div class="container">
-        
+
 <ul class="pagehead-actions">
 
   <li>
@@ -272,7 +269,7 @@
   </li>
 
   <li>
-    
+
   <div class="js-toggler-container js-social-container starring-container ">
 
     <form accept-charset="UTF-8" action="/M1lena/instagram-challenge/unstar" class="js-toggler-form starred js-unstar-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="rp91lspeeY32hFY+P7rwAjh+HfRHy5T0HFpV/+R2tBRkaYfJ5XqHJ2YRtrj/YO6X/CF90z0LxMN1yLVzEJIkZA==" /></div>
@@ -345,7 +342,7 @@
     <div class="container">
       <div class="repository-with-sidebar repo-container new-discussion-timeline  ">
         <div class="repository-sidebar clearfix">
-            
+
 <nav class="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
      role="navigation"
      data-pjax="#js-repo-pjax-container"
@@ -399,7 +396,7 @@
 </nav>
 
               <div class="only-with-full-nav">
-                  
+
 <div class="clone-url "
   data-protocol-type="http"
   data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
@@ -413,7 +410,7 @@
   </div>
 </div>
 
-  
+
 <div class="clone-url open"
   data-protocol-type="ssh"
   data-url="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone">
@@ -427,7 +424,7 @@
   </div>
 </div>
 
-  
+
 <div class="clone-url "
   data-protocol-type="subversion"
   data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
@@ -470,14 +467,14 @@
 
         <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
 
-          
+
 
 <a href="/M1lena/instagram-challenge/blob/7580ee6f6b43c91e282873a2d8193893933f0c01/README.md" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
 <!-- blob contrib key: blob_contributors:v21:7c43854f125951eec5a69b7c3a6d90b7 -->
 
 <div class="file-navigation js-zeroclipboard-container">
-  
+
 <div class="select-menu js-menu-container js-select-menu left">
   <span class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
     data-master-branch="master"
@@ -722,8 +719,8 @@
 
 
 
-    
-    
+
+
 
     <div id="ajax-error-message" class="flash flash-error">
       <span class="octicon octicon-alert"></span>
@@ -734,8 +731,8 @@
 
       <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-06533d99d3f0ca9115a0563dec4017e1bfad7758231e12b95a178cef2cdc3d4c.js"></script>
       <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-59cbed91abaeebed35de0a12f8c3adfea46b14dd56c5019b18a7dcdaf3c88a92.js"></script>
-      
-      
+
+
 
   </body>
 </html>
