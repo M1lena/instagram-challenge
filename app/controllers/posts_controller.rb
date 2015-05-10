@@ -20,7 +20,7 @@ class PostsController < ApplicationController
   end
 
   def post_params
-    params.require(:post).permit(:message)
+    params.require(:post).permit(:message, :image)
   end
 
   def edit
@@ -30,7 +30,6 @@ class PostsController < ApplicationController
   def update
     @post = Post.find(params[:id])
     @post.update(post_params)
-
     redirect_to '/posts'
   end
 

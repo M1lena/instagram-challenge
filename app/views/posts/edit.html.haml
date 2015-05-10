@@ -1,4 +1,6 @@
 = form_for @post do |f|
   = f.label :message
   = f.text_field :message
+  = f.file_field :image
+  = image_tag @post.image.url(:thumb)
   = f.submit

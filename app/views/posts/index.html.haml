@@ -1,9 +1,17 @@
 - if @posts.any?
   - @posts.each do |post|
+    %h3= image_tag post.image.url(:medium)
+    / %h3= link_to image_tag(post.image.url(:medium)), post_path(post.image)
     = post.message
-    = link_to "Edit #{post.message}", edit_post_path(post)
-    = link_to "Delete #{post.message}", post_path(post), method: :delete
-- else
-  no posts yet
+    %h6= link_to "Edit this post", edit_post_path(post)
+    %h6= link_to "Delete this post", post_path(post), method: :delete
 
+- else
+  %h3= no posts yet
+
+%p
 %a(href=@new_post)add a post
+
+
+/ <%= link_to image_tag(image.image.url(:thumb)), image_path(image) %>`
+/ = image_tag post.image.url(:medium)
