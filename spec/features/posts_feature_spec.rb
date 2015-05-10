@@ -33,4 +33,30 @@ feature 'posts' do
       expect(current_path).to eq '/posts'
     end
   end
+
+  context 'editing posts' do
+
+    before { Post.create message: "I'm not waiting on a lady" }
+
+    scenario 'let a user edit a post' do
+      visit '/posts'
+      click_link "Edit I'm not waiting on a lady"
+      fill_in 'Message', with: "I'm just waiting on a friend"
+      click_button 'Update Post'
+      expect(page).to have_content "I'm just waiting on a friend"
+      expect(current_path).to eq '/posts'
+    end
+  end
+
+  context 'deleting posts' do
+
+    before { Post.create message: 'paint it black' }
+
+    scenario 'removes a post when a user clicks a delete link' do
+      visit '/posts'
+      click_link 'Delete paint it black'
+      expect(page).not_to have_content 'paint it black'
+      expect(page).to have_content 'post deleted successfully'
+    end
+  end
 end

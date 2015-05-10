@@ -1,6 +1,8 @@
 - if @posts.any?
   - @posts.each do |post|
-    %h2= post.message
+    = post.message
+    = link_to "Edit #{post.message}", edit_post_path(post)
+    = link_to "Delete #{post.message}", post_path(post), method: :delete
 - else
   no posts yet
 
